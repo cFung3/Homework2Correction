@@ -67,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
 
                 final Bitmap bitmap = Bitmap.createBitmap(mat.width(), mat.height(), Bitmap.Config.ARGB_8888);
                 Utils.matToBitmap(mat, bitmap);
-                ImageView imgView = findViewById(R.id.imageView);
                 imgView.setImageBitmap(bitmap);
 
             }
